@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Waterfall
+  m_Name: owl
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,17 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 416199476, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
+      value: {fileID: 1985218627, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
     - time: 0.083333336
-      value: {fileID: -971553626, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
+      value: {fileID: 557730714, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
     - time: 0.16666667
-      value: {fileID: -1207106569, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - time: 0.25
-      value: {fileID: 1204626559, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - time: 0.33333334
-      value: {fileID: -1903941052, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - time: 0.41666666
-      value: {fileID: 1192170677, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
+      value: {fileID: -200027500, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,18 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 416199476, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - {fileID: -971553626, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - {fileID: -1207106569, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - {fileID: 1204626559, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - {fileID: -1903941052, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
-    - {fileID: 1192170677, guid: 3aa90bff02def644ebd2506021b9bb21, type: 3}
+    - {fileID: 1985218627, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
+    - {fileID: 557730714, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
+    - {fileID: -200027500, guid: 6fb2dbf238be4e946abf08f5ce55e1db, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
