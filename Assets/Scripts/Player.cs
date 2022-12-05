@@ -6,7 +6,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private int speed;
-    [SerializeField]
     private Rigidbody2D rb;
     private bool jumpKeyWasPressed;
     private float horizontalInput;
