@@ -44,9 +44,9 @@ public class Player : MonoBehaviour
         {   // If player is on the ground - it can jump
             if (jumpKeyWasPressed)
             {   // Update vertical movement - Jump
-                rb.velocity = new Vector2(rb.velocity.x, speed);
+                //rb.velocity = new Vector2(rb.velocity.x, speed);}}
                 // Other way to update the vertical movement - Add a vertical force
-                //rb.AddForce(Vector2.up * speed, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * speed, ForceMode2D.Impulse);
                 jumpKeyWasPressed = false;
             }
         }
