@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 819c086545ea40c40b11ce660151aeeb
+guid: 7f4dc74417f0147a5804b21c72feb54c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,8 +42,8 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 1
+  spriteMode: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -62,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -76,7 +76,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -88,7 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -100,52 +100,10 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: 6 - Jumpy_Lumpy_Idle (32 x 32)_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c547e22cc3929e1438c2a7b2cc404823
-      internalID: -52890117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 6 - Jumpy_Lumpy_Idle (32 x 32)_1
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3874e6cc17097bc42a0c50c20f235ccb
-      internalID: 360537916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -156,9 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      6 - Jumpy_Lumpy_Idle (32 x 32)_1: 360537916
-      6 - Jumpy_Lumpy_Idle (32 x 32)_0: -52890117
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

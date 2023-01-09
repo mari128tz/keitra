@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 819c086545ea40c40b11ce660151aeeb
+guid: 9882716e4ef82304ab872e42cb1d2c1b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,49 +103,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: 6 - Jumpy_Lumpy_Idle (32 x 32)_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c547e22cc3929e1438c2a7b2cc404823
-      internalID: -52890117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 6 - Jumpy_Lumpy_Idle (32 x 32)_1
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3874e6cc17097bc42a0c50c20f235ccb
-      internalID: 360537916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -156,9 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      6 - Jumpy_Lumpy_Idle (32 x 32)_1: 360537916
-      6 - Jumpy_Lumpy_Idle (32 x 32)_0: -52890117
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
