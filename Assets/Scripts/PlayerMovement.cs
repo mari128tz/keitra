@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     public bool canJump = false;
     private float horizontalInput;
+    public Animator animator;
+    private int delay = 4;
+    private float timer = 0.0f;
+    private float timeToGameOver = 2.0f;
     
     bool facingRight = true;
 
@@ -31,12 +36,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (health == 0)
         {
-            // Chama a função Dead.
+            // Chama a funï¿½ï¿½o Dead.
             Dead();
         }
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+            Debug.Log("jumped");
+            animator.SetBool("IsJumping", true);
             canJump = false;
         }
         Vector3 characterScale = transform.localScale;
@@ -45,11 +52,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxis("Horizontal") > 0)
             characterScale.x = 1;
         transform.localScale = characterScale;
+        
+        
     }
 
     void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
     }
 
@@ -59,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         if (col.gameObject.tag == "Ground")
         {
             canJump = true;
+            animator.SetBool("IsJumping", false);
         }
     }
 
@@ -82,6 +93,7 @@ public class PlayerMovement : MonoBehaviour
     //Button restart
     public void PlayerDied()
     {
+        animator.SetBool("IsDead", false);
         SceneManager.LoadScene("SampleScene");
     }
 }

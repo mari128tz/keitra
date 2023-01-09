@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4943143807696646567}
   m_Layer: 0
   m_Name: TX Village Props Wheelbarrow
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 3199234433168532604}
   m_Layer: 0
   m_Name: PF Village Props - Wheelbarrow
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 7633690333504443610}
   m_Layer: 0
   m_Name: TX Village Props Wheelbarrow Wheel
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
