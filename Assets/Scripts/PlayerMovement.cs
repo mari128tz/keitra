@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private int delay = 4;
     private float timer = 0.0f;
     private float timeToGameOver = 2.0f;
+    public GameObject[] hearts;
     
     bool facingRight = true;
 
@@ -78,6 +79,8 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             health -= 1;
+            Destroy(hearts[health].gameObject);
+            
             Debug.Log(health);
         }
     }
