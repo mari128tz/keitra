@@ -53,8 +53,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxis("Horizontal") > 0)
             characterScale.x = 1;
         transform.localScale = characterScale;
-        
-        
+
+        Physics2D.IgnoreLayerCollision(8, 9);
     }
 
     void FixedUpdate()
